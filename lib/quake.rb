@@ -8,3 +8,4 @@ module Quake
 end
 
 require 'quake/log/entities/game'
+require 'quake/log/entities/kill'
