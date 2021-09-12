@@ -17,3 +17,9 @@ It includes a rake task to make easy to use the parser.
 ```bash
 $ bundle exec rake quake:log:parse --log quake-server-file.log
 ```
+
+## Running tests
+
+```bash
+$ bundle exec rspec
+```
