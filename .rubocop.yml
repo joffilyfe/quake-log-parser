@@ -1,0 +1,98 @@
+
+AllCops:
+  NewCops: enable
+  DisplayCopNames: true
+  TargetRubyVersion: 2.7
+  SuggestExtensions: false
+Layout/FirstHashElementIndentation:
+  Enabled: true
+Layout/HeredocIndentation:
+  Enabled: false
+Layout/LineLength:
+  Max: 125
+  Exclude:
+    - app/exporters/clusters_exporter.rb
+    - app/models/payment_device.rb
+Layout/MultilineHashBraceLayout:
+  Enabled: true
+Layout/MultilineMethodCallBraceLayout:
+  Enabled: true
+Lint/AmbiguousBlockAssociation:
+  Enabled: true
+Lint/DuplicateMethods:
+  Enabled: true
+Lint/UriEscapeUnescape:
+  Enabled: true
+Lint/Void:
+  Enabled: true
+Metrics/AbcSize:
+  Enabled: false
+Metrics/BlockLength:
+  Enabled: true
+Metrics/BlockNesting:
+  Max: 4
+Metrics/ClassLength:
+  Enabled: true
+Metrics/CyclomaticComplexity:
+  Enabled: true
+Metrics/MethodLength:
+  Enabled: true
+Metrics/ModuleLength:
+  Enabled: true
+Metrics/ParameterLists:
+  Enabled: true
+Metrics/PerceivedComplexity:
+  Enabled: true
+Naming/HeredocDelimiterCase:
+  Enabled: false
+Naming/HeredocDelimiterNaming:
+  Enabled: false
+Naming/PredicateName:
+  Enabled: true
+Naming/VariableNumber:
+  Enabled: false
+Style/AndOr:
+  Enabled: true
+Style/ClassAndModuleChildren:
+  Enabled: false
+Style/ClassVars:
+  Enabled: false
+Style/DateTime:
+  Enabled: false
+Style/Documentation:
+  Enabled: false
+Style/EachWithObject:
+  Enabled: false
+Style/EmptyMethod:
+  Enabled: false
+Style/FormatStringToken:
+  Enabled: false
+Style/FrozenStringLiteralComment:
+  Enabled: true
+Style/GuardClause:
+  Enabled: true
+Style/MixinUsage:
+  Enabled: true
+Style/MultilineIfModifier:
+  Enabled: true
+Style/MultipleComparison:
+  Enabled: true
+Style/MutableConstant:
+  Enabled: true
+Style/NumericLiterals:
+  MinDigits: 7
+Style/NumericPredicate:
+  Exclude:
+  - config/deploy.rb
+Style/PerlBackrefs:
+  Exclude:
+  - app/models/rql/lexer.rb
+Style/PercentLiteralDelimiters:
+  PreferredDelimiters:
+    '%i': '()'
+    '%w': '()'
+    '%W': '()'
+Style/RedundantConditional:
+  Enabled: true
+Style/StderrPuts:
+  Enabled: true
