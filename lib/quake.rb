@@ -9,3 +9,4 @@ end
 
 require 'quake/log/entities/game'
 require 'quake/log/entities/kill'
+require 'quake/log/entities/player'
